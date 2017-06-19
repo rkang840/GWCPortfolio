@@ -1,1 +1,99 @@
-# GWCPortfolio
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<script>
+</script>
+<style>
+
+
+html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+      }
+
+body {
+          display: table;
+          background-image:url("https://s-media-cache-ak0.pinimg.com/originals/ce/5f/4c/ce5f4c1f3bc1caf277b2d95fd08e74c8.jpg");
+          background-size: contain;
+      }
+#background1 {
+
+}
+#lock {
+
+text-align:center;
+display: table-cell;
+vertical-align: middle;
+font-family:"Helvetica";
+color:#DDE8EE;
+font-size:80px;
+opacity: 0.2;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  margin: 10px 0 0 10px;
+white-space: nowrap;
+overflow: hidden;
+width: 30em;
+
+
+}
+#lock:hover {
+opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+opacity: 0.3px;
+}
+#two {
+  color: #333333;
+  overflow:hidden;
+  left: 0;
+  line-height: 20px;
+  position: absolute;
+  display:center;
+  WORK FROM HERE!!!!!
+}
+.popupBox {
+  visibility:hidden;
+  opacity:0;
+  -webkit-transition:visibility 0s linear 0.3s, opacity 0.3s linear;
+  -moz-transition:visibility 0s linear 0.3s, opacity 0.3s linear;
+  -o-transition:visibility 0s linear 0.3s, opacity 0.3s linear;
+  transition:visibility 0s linear 0.3s, opacity 0.3s linear;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition:all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition-delay: 1s;
+  -moz-transition-delay: 1s;
+  -o-transition-delay:1s;
+  transition-delay: 1s;
+}
+
+.popupHoverElement:hover > .popupBox {
+  visibility:visible;
+  opacity:1;
+  font-size:10px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+  display:center;
+}
+
+</style>
+<body>
+<div id="lock" class="popupHoverElement">
+
+[rhee kang] <div id="two" class="popupBox">Hovered content and a long one too<br /> works with line breaks too</div></div>
+
+</body>
+</html>
